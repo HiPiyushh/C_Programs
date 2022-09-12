@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main() {
+
+  int num1, num2, sum;
+
+  printf("Enter two integers : ");
+
+  scanf("%d %d", &num1, &num2);
+
+// calculating sum
+
+  sum = num1 + num2;
+
+  printf("Sum of %d and %d is: %d", num1, num2, sum);
+  return 0;
+}
